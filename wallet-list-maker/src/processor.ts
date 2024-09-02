@@ -8,18 +8,18 @@ import {
     Transaction as _Transaction,
 } from '@subsquid/evm-processor'
 
-export const PANCAKESWAP_ROUTER_V2 = '0x10ed43c718714eb63d5aa57b78b54704e256024e'
+export const ELK_ROUTER_V2 = '0x35FC5DF37eABaB62B55ECDc349b2d718C88E107A'
 
 export const processor = new EvmBatchProcessor()
     .setDataSource({
         archive: lookupArchive('binance'),
     })
     .addTransaction({
-        to: [PANCAKESWAP_ROUTER_V2],
+        to: [ELK_ROUTER_V2],
     })
     .setBlockRange({
-        from: 28_000_000,
-        to: 30_000_000,
+        from: 14_000_000,
+        to: 15_000_000,
     })
 
 export type Fields = EvmBatchProcessorFields<typeof processor>

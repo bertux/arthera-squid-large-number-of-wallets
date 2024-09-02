@@ -1,6 +1,6 @@
 # Wallet list maker
 
-An ad-hoc squid that saves addresses of all accounts that interacted with the [Pancakeswap v2 Router](https://bscscan.com/address/0x10ed43c718714eb63d5aa57b78b54704e256024e) contract between blocks 28M and 30M to the `../assets/allWallets` file.
+An ad-hoc squid that saves addresses of all accounts that interacted with the [Elk v2 Router](https://explorer.arthera.net/address/0x35FC5DF37eABaB62B55ECDc349b2d718C88E107A) contract between blocks 14M and 15M to the `../assets/allWallets` file.
 
 Run with
 ```bash

@@ -3,8 +3,8 @@ import {TypeormDatabase} from '@subsquid/typeorm-store'
 import {Transaction} from './model'
 import {processor} from './processor'
 
-// 1.44M wallets that interacted with Pancakeswap v2 Router
-// between blocks 28_000_000 and 30_000_000
+// 4 wallets that interacted with Elk v2 Router
+// between blocks 14_000_000 and 15_000_000
 const wallets: Set<string> = loadWallets('./assets/allWallets')
 console.log(`loaded ${wallets.size} wallets`)
 
