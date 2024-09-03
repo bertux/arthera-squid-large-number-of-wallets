@@ -8,9 +8,7 @@ import {
 } from '@subsquid/evm-processor'
 
 export const processor = new EvmBatchProcessor()
-    .setDataSource({
-        archive: 'https://v2.archive.subsquid.io/network/binance-mainnet',
-    })
+    .setGateway('https://v2.archive.subsquid.io/network/arthera-mainnet')
     .addTransaction({})
 
 export type Fields = EvmBatchProcessorFields<typeof processor>
